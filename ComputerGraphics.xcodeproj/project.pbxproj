@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0307A76223E063B100017A72 /* DemoRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0307A76023E063B100017A72 /* DemoRenderer.cpp */; };
 		032CA17C2378622B00DE6CA7 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 032CA17A2378622B00DE6CA7 /* Utils.cpp */; };
 		032CA17F2378637000DE6CA7 /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 032CA17D2378637000DE6CA7 /* ShaderProgram.cpp */; };
 		032CA1822378732300DE6CA7 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032CA1812378732300DE6CA7 /* Carbon.framework */; };
@@ -45,6 +46,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0307A76023E063B100017A72 /* DemoRenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DemoRenderer.cpp; sourceTree = "<group>"; };
+		0307A76123E063B100017A72 /* DemoRenderer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DemoRenderer.hpp; sourceTree = "<group>"; };
 		032CA16F2378619A00DE6CA7 /* ComputerGraphics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComputerGraphics; sourceTree = BUILT_PRODUCTS_DIR; };
 		032CA17A2378622B00DE6CA7 /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
 		032CA17B2378622B00DE6CA7 /* Utils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Utils.hpp; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				032CA196237884E400DE6CA7 /* main.cpp */,
+				0307A76023E063B100017A72 /* DemoRenderer.cpp */,
+				0307A76123E063B100017A72 /* DemoRenderer.hpp */,
 			);
 			path = ComputerGraphics;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				032CA1942378841100DE6CA7 /* GLFWBase.cpp in Sources */,
+				0307A76223E063B100017A72 /* DemoRenderer.cpp in Sources */,
 				032CA1AA2378995800DE6CA7 /* PointDrawable.cpp in Sources */,
 				032CA17F2378637000DE6CA7 /* ShaderProgram.cpp in Sources */,
 				032CA19A237884E400DE6CA7 /* main.cpp in Sources */,

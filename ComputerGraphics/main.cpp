@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include <string>
 
 using std::cout;
 using std::cin;
@@ -15,12 +16,22 @@ using std::endl;
 using std::string;
 
 #include "graphics.hpp"
+#include "DemoRenderer.hpp"
 
 //----------------------------------------------------------------------
 
 int main(int argc, const char * argv[]) {
+
+    string filename;
+    if (argc == 2) {
+        filename = string(argv[1]);
+    }
+    else {
+        filename = "/path/to/file/on/your/computer/in.txt";
+    }
+
     // create the class
-    Renderer *renderer = new Renderer("Renderer", 960, 540);
+    Renderer *renderer = new DemoRenderer("Demo", 960, 540, filename);
 
     // and enter the run loop
     renderer->runLoop();
